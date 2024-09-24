@@ -80,7 +80,7 @@ Discussed on the call is that I must keep as close as possible to the Django eco
 - I will not create any server configuration (eg. scaling groups, containers, deployment scripts, run scripts, etc)
 - I will not deploy a working copy of the application anywhere (should be executed within poetry shell via `manage.py runserver`).
 - Rather than using and providing a requirements.txt file with a virtual environment configuration, I opt for using **poetry** as dependancy and venv manager for it's ease of use. At the end of the project, I will still run `poetry export -f requirements.txt`, but I cannot guarantee that the project will run properly without poetry (executing commands in poetry shell).
-- I will host the source code in https://git.benchparty.com/ (a Gitea server on a self-hosted machine). Credentials will be provided to Strypes team via email.
+
 
 ## Solution
 
