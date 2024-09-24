@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "strypes-assesment"
+version = "0.1.0"
+description = "Assesment task for Strype"
+authors = ["viktor <me@vpanteleev.com>"]
+license = "LGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.1"
+djangorestframework = "^3.15.2"
+pyyaml = "^6.0.2"
+django-phonenumber-field = "^8.0.0"
+phonenumbers = "^8.13.45"
+drf-yasg = "^1.21.7"
+setuptools = "^75.1.0"
+django-filter = "^24.3"
+drf-yasg2 = "^1.19.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

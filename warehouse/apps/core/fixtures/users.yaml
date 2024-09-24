@@ -1,0 +1,12 @@
+- model: auth.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$870000$VGCxZ9hDXnTUpEREUPfWYd$2Oi7InPRpKfZebtgoRz1EHaj2tC9ulzeDuBP/oUdjIM=
+    last_login: 2024-09-22 00:00:00.000000+00:00
+    is_superuser: 1
+    username: admin
+    email: admin@warehouse.loc
+    is_staff: 1
+    is_active: 1
+    date_joined: 2024-09-22 00:00:00.000000+00:00
+    
